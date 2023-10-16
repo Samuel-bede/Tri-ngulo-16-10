@@ -10,3 +10,4 @@ if (a > b + c) or (b > a + c) or (c > a + b):
     print('Pelos dados inseridos, este polígono NÃO forma um triângulo!')
 else:
     print('Pelos dados inseridos, este polígono forma um triângulo!')
+#segunda versão
