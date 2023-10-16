@@ -1,5 +1,8 @@
+# Comentário do tio.
+
 # Validador de Triângulo
 print('\n\t\t\t --Validador de Triângulo--\n\n')
+
 
 a = float(input('Informe o tamanho do lado a: '))
 b = float(input('Informe o tamanho do lado b: '))
