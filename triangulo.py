@@ -13,4 +13,10 @@ if (a > b + c) or (b > a + c) or (c > a + b):
     print('Pelos dados inseridos, este polígono NÃO forma um triângulo!')
 else:
     print('Pelos dados inseridos, este polígono forma um triângulo!')
-#segunda versão
+#Verificar tipo de triangulo
+if a == b and b == c:
+    print('Este é um triângulo Equilatero')
+elif a == b or a == c or b ==c:
+    print('Este é um triângulo Isoceles')
+else:
+    print('Este é um triângulo Escaleno')
